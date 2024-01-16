@@ -79,18 +79,6 @@ x-airflow-common:
     
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
 
-    # AIRFLOW_VAR_OMDB_ENGINE_STR: ${AIRFLOW_VAR_OMDB_ENGINE_STR}
-    # AIRFLOW_VAR_GENIUS_S3_BUCKET: 'boost-airflow-data-dev'
-    # AIRFLOW_VAR_GENIUS_S3_KEY_PREFIX: 'genius_data_dev'
-    # AIRFLOW_VAR_GENIUS_API_KEY: 'f9a3a461c19a35baf0e034bd385402d5'
-    # AIRFLOW_VAR_GENIUS_BASKETBALL_DOWNLOAD_SEASON_YEAR: '2023'
-
-    # AIRFLOW_VAR_GENIUS_BASKETBALL_PYTHON_PATH: '/home/airflow/.local/share/virtualenvs/boost-basketball-Ba6QmwgN/bin/python'
-    # AIRFLOW_VAR_DJANGO_BB_PROJECT_PATH: /opt/boost_basketball_dev/boost-basketball
-    # AIRFLOW_VAR_AIRFLOW_PROJECT_PATH: /opt/airflow/dags
-    # AIRFLOW_VAR_GENIUS_BASKETBALL_IMPORT_LEAGUE_ID: '456'
-    # AIRFLOW_VAR_GENIUS_BASKETBALL_IMPORT_SEASON_YEAR: '2023'
-    # AIRFLOW_VAR_NCAA_DB_URI: 'postgresql://stian:t98u78OHI8z7huo4@sports-backends-prod-database-1.c7fmx6dbqycm.us-east-2.rds.amazonaws.com:5432/boost_baseball_prod'
 
   volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
