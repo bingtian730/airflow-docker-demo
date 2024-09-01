@@ -39,7 +39,7 @@ with DAG("hello_world", start_date=datetime(2023, 12, 2), description='An e2e st
         dag=dag
     )
     hello_world
-
+    print('hello world')
 
 # with DAG("my_dag", start_date=datetime(2021, 1, 1), description='An e2e stock filter flow',
 #          schedule_interval="@daily", catchup=False) as dag:
